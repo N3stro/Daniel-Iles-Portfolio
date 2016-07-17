@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+width:1170px;
+}
+
+.search{
+float:right;
+}
+.header{
+background-color:black;
+}
+.btn{
+border-bottom:1px solid #1a77ff;
+  background-color:black;
+  border-radius:0px;
+  color:#FFF;
+ text-decoration:none;
+  margin-left:15px;
+}
+.btn:hover{
+color:#FFF;
+}
+button{
+text-transform: none;
+  cursor: pointer;
+
+}
+.form-inline input{
+border-bottom:1px solid #FFF;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  background:transparent;
+  border-radius:0px;
+  padding-left:25px;
+   box-shadow:none;
+}
+.form-inline input:hover{
+border-bottom: 1px solid #1a77ff;
+  color:#FFF;
+}
+.menu li a{
+color:#FFF;
+}
+.menu li{
+list-style:none;
+  display:inline-block;
+}
+.menu li a:hover{
+background-color:#1a77ff;
+  color:#FFF;
+}
+.menu{
+background-color:#152230;
+}
+
+.main{
+background-image:url('https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg');
+  color:#FFF;
+}
+.main h2 span{
+border-bottom:5px solid #1a77ff;
+  font-size:60px;
+}
+.main p{
+font-size:20px;
+  margin-top:15px;
+}
+.main .row{
+margin-top:50px;
+  margin-bottom:120px;
+}
+.supporting .row{
+margin:50px 0px;
+}
+h3 span{
+font-size:20px;
+  font-weight:bold;
+  border-bottom:3px solid #1a77ff;
+}
+.col-md-4{
+background-color:#152230;
+  color:#FFF;
+  padding:20px 40px 40px 40px;
+}
+.col-md-12 image{
+  height:auto;
+  width:100%;
+}
+.col-md-12{
+margin:0px auto;
+  padding:0px;
+}
+.footer p{
+float:right;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+.footer{
+background-color:black;
+  color:white;
+}
+.footer li{
+display:inline-block;
+  padding-left:20px;
+}
+.footer ul{
+margin-top:30px;
+  margin-bottom:50px;
+}

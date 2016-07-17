@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 970px;
+}
+.jumbotron{
+background-image:url('https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg');
+  margin:0px auto;
+}
+.jumbotron .row{
+width:100%;
+  height:auto;
+  margin:0px auto;
+}
+.header{
+height:auto;
+}
+.header img{
+height:75px;
+  width:105px;
+}
+.col-md-3{
+width:25%;
+}
+.col-md-9{
+text-align:right;
+  width:75%;
+   height:60px;
+}
+ul{
+
+  color:#FFF;
+  margin-top:0px auto;
+  padding-top:40px;
+}
+li{
+ display:inline-block;
+  padding-right:15px;
+}
+.btn{
+padding:8px 25px;
+  background-color:#FF003D;
+  border-radius:0px;
+}
+.main{
+margin-top:50px;
+  margin-bottom:80px;
+}
+.main h1,h2{
+color:#FFF;
+}
+.main h2{
+  font-size:20px;
+}
+
+.supporting-1{
+background-color:grey;
+}
+.supporting-2{
+background-color:black;
+}
+.supporting-3{
+background-color:grey;
+}
+.suppoorting h1,p{
+color:#FFF;
+}
+
+.supporting img{
+width:450px;
+  height:300px;
+}
+.col-md-6{
+ margin-top:50px;
+  margin-bottom:50px;
+}
+.pic1{
+float:right;
+}
+#szoveg2{
+text-align:right;
+}
+.supporting-4{
+  background-image:url('https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg');
+  margin:0px auto;
+}
+.supporting-4 img{
+height:42px;
+  width:140px;
+}
+h3{
+color:#FFF;
+  margin-bottom:20px;
+}
+.ize{
+margin:150px auto;
+  text-align:center;
+}
+.footer{
+background-color:black;
+}
+.col-md-2{
+margin-bottom:50px;
+}
+ul a{
+color:grey;
+}
+.footer a:hover{
+color:grey;
+}
+ul li{
+margin-top:10px;
+}
+.footer ul{
+margin:0px auto;
+}
+@media (max-width: 1000px) {
+  .jumbotron ul{
+  margin:-35px;
+    padding-top:0px;
+    text-align:right;
+  }
+  .row{
+  display:inline-block;
+  }
+
+  #szoveg2{
+text-align:left;
+}
+  }
+@media (max-width:1000px){
+  .footer ul{
+float:left;
+    margin-bottom:15px;
+
+  }
+  .col-md-2{
+  margin:0px auto;
+  }
+}
