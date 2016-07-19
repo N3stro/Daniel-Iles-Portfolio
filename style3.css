@@ -36,7 +36,7 @@ margin-top:15px;
    text-transform:uppercase;
 }
 
-.nav li:hover {
+.nav a:hover {
   color: #31363d;
   cursor: pointer;
   transition: color 1s;
