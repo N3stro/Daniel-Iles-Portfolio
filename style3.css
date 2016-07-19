@@ -41,6 +41,10 @@ margin-top:15px;
   cursor: pointer;
   transition: color 1s;
 }
+.nav a{
+  text-decoration: none;
+  color:white;
+}
 .row {
   margin-top: 30px;
 }

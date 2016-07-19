@@ -40,10 +40,15 @@ li{
  display:inline-block;
   padding-right:15px;
 }
-.btn{
-padding:8px 25px;
+.btn a:hover{
+ padding:8px 16px;
   background-color:#FF003D;
   border-radius:0px;
+  text-decoration: none;
+  color:white;
+}
+.btn a{
+  color:#FFF;
 }
 .main{
 margin-top:50px;
@@ -104,12 +109,14 @@ background-color:black;
 }
 .col-md-2{
 margin-bottom:50px;
+margin-left: 60px;
 }
 ul a{
 color:grey;
 }
 .footer a:hover{
 color:grey;
+text-decoration: none;
 }
 ul li{
 margin-top:10px;

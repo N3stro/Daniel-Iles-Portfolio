@@ -94,6 +94,9 @@ color:#0393FF;
 .thumbnail {
   max-width:100%;
 }
+.col-md-3{
+margin-left: 80px;
+}
 @media (max-width: 780px) {
   .main .btn {
    margin-top:50px;

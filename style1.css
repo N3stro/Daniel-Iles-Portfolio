@@ -62,6 +62,7 @@ font-size:25px;
   border-top: 1px solid #dbdbdb;
   background-color: #f3f3f3;
   padding: 20px 0px 80px;
+  margin-left: 80px;
 }
 
 .footer ul {
@@ -72,6 +73,9 @@ font-size:25px;
 .footer li {
   color: #999;
   font-weight: 600;
+}
+.col-md-3 {
+  margin-left: 75px;
 }
 
 @media (max-width: 500px) {
